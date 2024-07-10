@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appliances img {
+    width: 100px;
+    height:100px ;
+    border-radius: 50%;
+    border: red solid 2px;
+   
+    
+}
+.background-head{
+    background-color: #647c90;
+    border-radius: 8px;
+}
+.business-name h1{
+    color: firebrick;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.business-name p {
+    color: firebrick;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.line-border{
+    background-color: #d9534f;
+    height: 100%;
+}
+.contact-background{
+    background-color:#83bbdf;
+    height: 100%;
+    border-radius: 8px;
+}
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.contact-info li span:hover{
+    color: red;
+}
+.icons{
+    background-color: black;
+    width: 28px;
+    border: black solid 2px;
+    border-radius: 50%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-icon {
+    color: #d9534f;
+    margin-right: 10px;
+}
+
+.addresses p {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.addresses p:hover{
+    color: yellow;
+}
+.location-icon {
+    color: #d9534f;
+    margin-right: 10px;
+}
